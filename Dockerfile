@@ -12,3 +12,5 @@ RUN set -eux; \
         urllib3==1.26.4 \
         pytest==8.3.5 \
     ; 
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]
